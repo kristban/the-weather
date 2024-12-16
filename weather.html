@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The weather</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="overall">
+      <header>
+        <form id="enter-city">
+          <input type="search" id="city-input" placeholder="Enter a city.."
+          required " />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 id="city">Paris</h1>
+            <p>
+              <span id="current-time">Saturday 15:32</span>, moderate rain
+              <br />
+              Humidity: <span class="current-condition">87%</span>, Wind:
+              <span class="current-condition">7.2km/h</span>
+            </p>
+          </div>
+          <div id="temperature">
+            <span id="temperature-icon">☀️</span>
+            <span id="temperature-number">14</span>
+            <span id="temperatur-unit">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p class="project-by">
+          This project was coded by
+          <a href="#" target="_blank">Kristin Bannasch</a> and is on
+          <a href="#" target="_blank">GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="src/index3.js"></script>
+  </body>
+</html>

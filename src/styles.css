@@ -1,0 +1,59 @@
+body {
+  background: rgba(151, 203, 169, 0.9);
+  font-family: "Parkinsans", serif;
+}
+
+p,
+footer {
+  color: gray;
+}
+
+p {
+  font-size: 12px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+input[type="search"] {
+  width: 74%;
+  padding: 10px 10px;
+  background: rgba(151, 203, 169, 0.2);
+  border-style: none;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  width: 24%;
+  padding: 10px 10px;
+  background: rgba(151, 203, 169, 0.9);
+  border-style: none;
+  border-radius: 5px;
+}
+
+.overall {
+  display: block;
+  margin: 10% auto;
+  padding: 30px 30px;
+  background: #efefea;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+#temperature {
+  font-size: 48px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top: -80px;
+}
+
+.current-condition {
+  color: red;
+}
+
+.city-entry {
+  border-radius: 10px;
+  display: block;
+  margin: 0;
+}
